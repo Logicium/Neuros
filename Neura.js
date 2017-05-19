@@ -92,7 +92,7 @@ addGate.prototype = {
         this.u0.grad += 1 * this.utop.grad;
         this.u1.grad += 1 * this.utop.grad;
     }
-}
+};
 
 var sigmoidGate = function() {
     // helper function
